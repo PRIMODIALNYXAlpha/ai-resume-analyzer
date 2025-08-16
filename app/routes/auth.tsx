@@ -1,6 +1,6 @@
 import {usePuterStore} from "~/lib/puter";
-import {useLocation, useNavigate} from "react-router";
 import {useEffect} from "react";
+import {useLocation, useNavigate} from "react-router";
 
 export const meta = () => ([
     { title: 'Resumind | Auth' },
@@ -49,4 +49,5 @@ const Auth = () => {
         </main>
     )
 }
+
 export default Auth
